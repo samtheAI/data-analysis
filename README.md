@@ -20,7 +20,8 @@ Charts are rendered as interactive Plotly visualizations whenever possible, with
 Python 3.10 or 3.11 is recommended.
 
 ```bash
-cd data_analyst_product
+git clone https://github.com/samtheAI/data-analysis.git
+cd data-analysis
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -37,7 +38,8 @@ streamlit run app.py
 ## Run on Windows PowerShell
 
 ```powershell
-cd data_analyst_product
+git clone https://github.com/samtheAI/data-analysis.git
+cd data-analysis
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
